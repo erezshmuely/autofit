@@ -1,25 +1,6 @@
 TwitterForZombies::Application.configure do
 
 
-config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-# ActionMailer Config
-# Setup for production - deliveries, no errors raised
-config.action_mailer.delivery_method = :smtp
-config.action_mailer.perform_deliveries = true
-config.action_mailer.raise_delivery_errors = false
-config.action_mailer.default :charset => "utf-8"
-  
-config.ActionMailer::Base.delivery_method = :smtp
-
-config.action_mailer.smtp_settings = {
-  :address              => "smtp.gmail.com",
-  :port                 => 587,
-  :domain               => "localhost:3000",
-  :user_name            => "erezshmuely@gmail.com",
-  :password             => "g4ssGbel",
-  :authentication       => "plain",
-  :enable_starttls_auto => true
-}
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
