@@ -5,3 +5,11 @@ development:
   pool: 5
   username: erez
   password: g4ssGbel
+
+  production:
+  adapter: postgresql
+  encoding: unicode
+  database: erez
+  pool: 5
+  username: erez
+  password: g4ssGbel
