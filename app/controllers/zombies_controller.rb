@@ -26,7 +26,7 @@ class ZombiesController < ApplicationController
   def create
     @zombie = Zombie.new(zombie_params)
 
-    ZombieMailer.create(@zombie).deliver
+    
 
     respond_to do |format|
       if @zombie.save
