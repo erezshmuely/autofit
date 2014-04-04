@@ -6,10 +6,13 @@ development:
   username: erez
   password: g4ssGbel
 
-  production:
-  adapter: postgresql
-  encoding: unicode
-  database: erez
-  pool: 5
-  username: erez
-  password: g4ssGbel
+
+production:
+adapter: postgresql
+encoding: unicode
+pool: 5
+database: degt2gvoe4p818
+username: zxizdrfowfqbws
+password: uqfoTOg8PpfZYPgiLokpaqSP0h
+host: ec2-54-204-43-200.compute-1.amazonaws.com
+port: 5432
