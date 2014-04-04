@@ -1,6 +1,28 @@
 TwitterForZombies::Application.configure do
 
 
+  config.action_mailer.default_url_options = { :host => 'http://a1234.herokuapp.com' }
+config.action_mailer.delivery_method = :smtp
+# change to true to allow email to be sent during development
+config.action_mailer.perform_deliveries = true
+config.action_mailer.raise_delivery_errors = true
+config.action_mailer.default :charset => "utf-8"
+
+
+ActionMailer::Base.delivery_method = :smtp
+
+ActionMailer::Base.smtp_settings = {
+  :address              => "smtp.gmail.com",
+  :port                 => 587,
+  :domain               => "http://a1234.herokuapp.com",
+  :user_name            => "halifotesh@gmail.com",
+  :password             => "cm20012002",
+  :authentication       => "plain",
+  :enable_starttls_auto => true
+}
+
+
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
