@@ -7,3 +7,12 @@ development:
   password: g4ssGbel
 
 
+production:
+adapter: postgresql
+encoding: unicode
+pool: 5
+database: datbj2a91kt94g
+username: lnutaorbyxtahy
+password: ppOJT-sIdriMeO_T6MC4HNpwVj
+host: ec2-54-228-218-179.eu-west-1.compute.amazonaws.com
+port: 5432
