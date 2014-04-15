@@ -1,7 +1,7 @@
 TwitterForZombies::Application.configure do
 
 
-  config.action_mailer.default_url_options = { :host => 'http://a1234.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'http://autofit2.herokuapp.com' }
 config.action_mailer.delivery_method = :smtp
 # change to true to allow email to be sent during development
 config.action_mailer.perform_deliveries = true
