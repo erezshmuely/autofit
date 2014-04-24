@@ -12,11 +12,13 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require foundation
 //= require bootstrap
 //= require turbolinks
 //= require_tree .
 
-
+//= require foundation
+$(document).foundation();
 
 function startTime()
 {
@@ -46,3 +48,5 @@ return i;
 
 startTime()
 
+
+$(function(){ $(document).foundation(); });
