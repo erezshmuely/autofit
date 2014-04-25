@@ -6,14 +6,18 @@
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
-width: 3000px;
+
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
-width: 320px;
+
 }
+
+
+
+
 
 #t1 {
 	
@@ -73,6 +77,10 @@ margin-left: 1150px;
 }/*#IMG_1*/
 
 
-body {
-height: auto; width: auto; position: absolute; top: 0; left: 0;
+
+body
+{
+margin:0px;
+padding:0px;
+width:100%;
 }
