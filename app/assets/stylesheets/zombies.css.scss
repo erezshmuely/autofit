@@ -7,24 +7,12 @@
 @media only screen 
 and (min-width : 321px) {
 
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-
-}
-
-
-
-
-
 #t1 {
-	
-	margin-top: 20;
-		margin-bottom: -20px;
-		
-	
+    
+    margin-top: 20;
+        margin-bottom: -20px;
+        
+    
     background-position: 0px 0px;
     color: rgb(197, 195, 195);
     overflow-wrap: break-word;
@@ -36,6 +24,38 @@ and (max-width : 320px) {
     font: normal normal normal 36px/normal 'times new roman', times, serif;
     outline: rgb(197, 195, 195) none 0px;
 }
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+#t1 {
+    
+    margin-top: 70;
+        margin-bottom: -20px;
+        
+    
+    background-position: 0px 0px;
+    color: rgb(197, 195, 195);
+    overflow-wrap: break-word;
+    text-align: center;
+    text-decoration: none solid rgb(197, 195, 195);
+    word-wrap: break-word;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0px 0px / auto padding-box border-box;
+    border: 0px none rgb(197, 195, 195);
+    font: normal normal normal 36px/normal 'times new roman', times, serif;
+    outline: rgb(197, 195, 195) none 0px;
+}
+
+}
+
+
+
+
+
+
 
 
 #t2 {
