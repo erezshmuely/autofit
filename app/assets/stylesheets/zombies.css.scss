@@ -36,6 +36,36 @@ and (max-width : 980px) {
 
 
 
+
+@viewport {
+    width: auto; // auto | device-width | length | percentage
+
+    // 'width' sets both max and min-width. It's a shorthand descriptor.
+    max-width: auto;
+    min-width: auto;
+
+    // 'zoom' equates to 'initial-scale' in meta tag.
+    // Values of 1.0 or 100% mean no zoom.
+    zoom: auto; // auto | number | percentage
+
+    max-zoom: 5; // Largest allowed zoom factor.
+    min-zoom: 0.25; // Smallest allowed zoom factor.
+
+    // Can the zoom factor be changed by user interaction?
+    // Equates to 'user-scalable' in meta tag.
+    user-zoom: zoom; // fixed | zoom
+
+    // Lock orientation or leave to auto.
+    orientation: auto; // auto | portrait | landscape
+
+}
+
+
+
+
+
+
+
 #t1 {
     
     margin-top: 250px;
