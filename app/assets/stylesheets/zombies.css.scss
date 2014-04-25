@@ -34,6 +34,11 @@ and (min-width : 1000px) {
 @media only screen 
 and (max-width : 980px) {
 
+@-o-viewport {
+    width: 320px;
+    zoom: 0.2;
+}
+
 #t1 {
     
     margin-top: 20px;
